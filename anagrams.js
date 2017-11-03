@@ -17,10 +17,10 @@ let alphabetizedList = alphabetize(words);
 let dictionary = {}
 for (var i = 0; i < words.length; i++) {
   let word = words[i]
-  let matches = words.filter(function(word){
-    return alphabetize(word) == alphabetize(word);
+  let matches = words.filter(function(word[i]){
+    return alphabetize(word[i]) == alphabetize(word[i]);
   }
-  dictionary.push = {word[i]: [matches]}
+  dictionary.push {word[i]: [matches]}
 }
 
 
