@@ -1,13 +1,12 @@
 // Want the data structure to look like this
-
-anagramclasses = {
-	"act": ["act", "cat"],
-	"adn": ["and", "dan", "dna"],
-	 ...
-	"mooz": ["mooz","zoom","oomz"]
-	 ...
-}
-
+//
+// anagramclasses = {
+// 	"act": ["act", "cat"],
+// 	"adn": ["and", "dan", "dna"],
+// 	 ...
+// 	"mooz": ["mooz","zoom","oomz"]
+// 	 ...
+// }
 
 
 let words = [
