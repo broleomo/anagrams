@@ -64,3 +64,18 @@ for(let i=0; i<array.length -1 ; i++){
   }
 }
 }
+// p.5
+function handleThreeWords(){
+  let givenWord = alphabetize(document.getElementById('entry3').value);
+  for(let i=0; i<array.length -1 ; i++){
+    for(let j=i+1; j<array.length; j++){
+      for (let k = j+ 1; k < array.length; k++) {
+      if(givenWord.length ===((array[i]+ array[j] + array[k]).length)){
+        if (alphabetize(array[i] + array[j] + array[k]) === givenWord) {
+            console.log(dictionary[array[i]] , dictionary[array[j]], dictionary[array[k]]);
+        }
+      }
+      }
+    }
+  }
+}
